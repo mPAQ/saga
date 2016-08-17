@@ -1,0 +1,44 @@
+body {
+	font-family: sans-serif;
+	font-variant: small-caps;
+	font-weight: 900;
+}
+
+.container{
+	border: 3px solid black;
+	border-radius: 5px;
+}
+#info1{
+	display: inline-block;
+}#info2{
+	display: inline-block;
+}
+#logo{
+	display: inline-block;
+}
+#logo img{
+	display: inline-block;
+	width: 300px;
+}
+
+#abilities th:first-child{
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+}
+
+#abilities th:not(:first-child){
+	width: 70px;
+}
+
+#abilities td:first-child{
+	background-color: grey;
+	color: white;
+	border-radius: 5px;
+}
+
+#abilities td:not(:first-child){
+	border: 2px solid black;
+	color: white;
+	border-radius: 5px;
+}
