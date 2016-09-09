@@ -2,6 +2,7 @@
   "name": "myMEANapplication",
   "version": "1.0.0",
   "dependencies": {
+    "ejs": "^2.5.2",
     "express": "^4.14.0",
     "gulp": "latest"
   }
